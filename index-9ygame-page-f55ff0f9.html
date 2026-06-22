@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于九游 · 简明指南</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #fafaf9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            color: #1d1d1f;
+            line-height: 1.7;
+            padding: 2.5rem 1rem;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 28px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02), 0 8px 24px rgba(0,0,0,0.04);
+            padding: 3rem 2rem 4rem;
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 2rem 1.2rem 3rem;
+                border-radius: 20px;
+            }
+            body {
+                padding: 1rem 0.6rem;
+            }
+        }
+
+        /* 抬头 */
+        .tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            letter-spacing: 0.04em;
+            color: #6b6b70;
+            background: #f0f0ef;
+            padding: 0.2rem 1rem;
+            border-radius: 30px;
+            margin-bottom: 2rem;
+            font-weight: 450;
+        }
+
+        h1 {
+            font-weight: 560;
+            font-size: 2.1rem;
+            line-height: 1.25;
+            letter-spacing: -0.02em;
+            color: #161617;
+            margin-bottom: 0.6rem;
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.7rem;
+            }
+        }
+
+        .lead {
+            font-size: 1.1rem;
+            color: #3a3a3e;
+            margin-bottom: 2rem;
+            padding-bottom: 1.2rem;
+            border-bottom: 1px solid #e9e8e6;
+            font-weight: 400;
+        }
+
+        /* 正文层级 */
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 520;
+            margin-top: 2.4rem;
+            margin-bottom: 0.8rem;
+            color: #1c1c1e;
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1rem;
+            color: #2b2b2e;
+        }
+
+        .inset-quote {
+            background: #f4f4f2;
+            border-left: 4px solid #b3b3b0;
+            padding: 1.2rem 1.4rem;
+            margin: 1.8rem 0;
+            border-radius: 0 12px 12px 0;
+            color: #2e2e31;
+            font-style: normal;
+        }
+        .inset-quote p {
+            margin-bottom: 0.2rem;
+        }
+        .inset-quote .attribution {
+            font-size: 0.85rem;
+            color: #6f6f74;
+            margin-top: 0.4rem;
+        }
+
+        a {
+            color: #1d4f7a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 0.5px;
+            text-decoration-color: #b9cadb;
+            transition: text-decoration-color 0.2s, color 0.2s;
+        }
+        a:hover {
+            color: #0a3352;
+            text-decoration-color: #0a3352;
+        }
+
+        .visit-note {
+            margin-top: 2.6rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e2e1de;
+            font-size: 0.95rem;
+            color: #48484d;
+            line-height: 1.6;
+        }
+
+        .cta-line {
+            margin-top: 1.2rem;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #e2e1de;
+            margin: 2.2rem 0 1.8rem;
+        }
+
+        .subtle-list {
+            list-style: none;
+            padding-left: 0.2rem;
+            margin: 1.2rem 0 1.6rem;
+        }
+        .subtle-list li {
+            margin-bottom: 0.6rem;
+            padding-left: 1.4rem;
+            position: relative;
+        }
+        .subtle-list li::before {
+            content: "·";
+            position: absolute;
+            left: 0.2rem;
+            color: #8f8f94;
+            font-weight: 600;
+        }
+
+        .small-meta {
+            font-size: 0.8rem;
+            color: #8b8b90;
+            margin-top: 2.8rem;
+            text-align: center;
+            letter-spacing: 0.02em;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <span class="tag">简明指南</span>
+
+    <h1>关于九游：<br>从访问到日常使用</h1>
+    <div class="lead">一份写给普通人的轻量参考，不绕弯子，只说实在的。</div>
+
+    <p>说到「<strong>九游</strong>」，不少朋友第一时间想到的是游戏、社区或手机应用。其实你不需要对它有什么预设——它更像一个聚合了内容和服务的平台，你可以直接通过浏览器慢慢探索，也可以先看看别人的分享再决定怎么用。这篇文章不打算罗列功能清单，只想从几个平常的角度帮你快速建立印象。</p>
+
+    <h2>一种更轻的接触方式</h2>
+    <p>很多人习惯先搜一下，再决定要不要深入。如果你只是想看看 <a href="https://index-9ygame.com">九游</a> 里面大概有什么，完全可以直接打开页面，像翻一本杂志那样随便逛逛。首页通常会把热门内容、推荐板块放在显眼位置，滑动浏览就是最自然的入门方式。不需要注册，也不需要立刻做决定，先感受一下界面风格和内容调性，比什么都重要。</p>
+
+    <p>过去几年里，这类平台常常被贴上“复杂”“入口太多”的标签。但实际体验下来，<strong>九游</strong> 的导航和分类算是比较克制的，主次分明。如果你习惯了手机上的信息流，那切换到网页版也不会觉得突兀。当然，每个人的适应节奏不同，给自己十分钟慢慢翻一翻，比看十篇介绍都有用。</p>
+
+    <!-- 引用块：带一点提醒味道 -->
+    <div class="inset-quote">
+        <p>“访问一个平台之前，先放下‘我一定要搞懂所有功能’的包袱。好的体验往往是从一个无关紧要的点击开始的。”</p>
+        <div class="attribution">—— 来自一位普通用户的笔记</div>
+    </div>
+
+    <h2>平时可以用它做什么</h2>
+    <p>说到底，一个平台好不好用，要看它能不能自然地嵌入你的日常。拿 <strong>九游</strong> 来说，下面这几个场景可能是最常见的：</p>
+    <ul class="subtle-list">
+        <li><strong>随便看看</strong>：首页推荐的内容通常经过编辑筛选，质量相对稳定，适合零碎时间翻一翻。</li>
+        <li><strong>找点实用的东西</strong>：不管是工具、攻略还是兴趣小组，分类入口一般都在顶部或者侧栏，多试两次关键词搜索就能摸到门路。</li>
+        <li><strong>参与讨论或互动</strong>：如果你喜欢留言、点赞或者发帖，建议先观察一下社区氛围，看看大家通常怎么交流，再慢慢加入。</li>
+    </ul>
+    <p>本质上，这些都不需要什么“技巧”。给自己一点耐心，把平台当成一个可以随时放下、随时捡起来的工具就好。</p>
+
+    <h2>几个容易被忽略的提醒</h2>
+    <p>写这篇指南的时候，我们也跟几位经常使用 <strong>九游</strong> 的朋友聊了聊，他们提到了一些值得注意的细节：</p>
+    <p>第一，<strong>别被“热门”带偏</strong>。首页推荐的东西虽然很多人看，但未必适合你。大胆用搜索功能和分类筛选，直接找自己感兴趣的内容，效率会高很多。第二，<strong>留意页面上的小字说明</strong>，比如活动时间、下载要求、隐私条款——这些信息通常放在不起眼的位置，但它们往往决定了后续的体验是否顺畅。第三，<strong>保持平常心</strong>。平台上的内容和互动五花八门，遇到不合口味的帖子或广告，随手划走就好，不值得花情绪去纠结。</p>
+
+    <hr>
+
+    <div class="visit-note">
+        <p>如果你还没有打开过 <strong>九游</strong> 的页面，不妨现在试试。把浏览器当成一张白纸，直接输入或者点开 <a href="https://index-9ygame.com">九游</a>，从首页开始，一点一点往下滑。不需要带着“我必须找到什么”的压力，单纯地看看标题、图片、分类——这本身就是一种很自然的接触方式。</p>
+        <p class="cta-line">说到底，一个平台是工具还是迷宫，往往取决于你第一次访问时的心态。保持轻松，别赶路。</p>
+    </div>
+
+    <div class="small-meta">—— 写于一次晴天的午后 · 仅作参考</div>
+</div>
+</body>
+</html>
